@@ -1,0 +1,46 @@
+.projects{
+    background-color: lightcoral;
+    border: solid;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding-top: 17px;
+}
+
+.project{
+    width: 160px;
+    height: 160px;
+    border: solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img{
+    width: 80%;
+    border-radius: 50%;
+    transition: 1.5s;
+}
+
+img:hover{
+    width: 65%;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+    color: red;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
